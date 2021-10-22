@@ -478,7 +478,7 @@ section {
   }
   
   .about .image {
-    background: url("../img/about.jpg") center center no-repeat;
+    background: url("../img/about.svg") center center no-repeat;
     background-size: cover;
     min-height: 400px;
   }
@@ -804,6 +804,10 @@ section {
     position: relative;
   }
   
+  .pricing .box .subtitle{
+color: var(--secundary);
+  }
+
   .pricing .featured-badge {
     display: inline-block;
     position: absolute;
@@ -893,7 +897,7 @@ section {
   }
   
   .pricing .featured .get-started-btn {
-    background: var(--secundary);
+    background: var(--primary);
   }
   
   .pricing .featured .get-started-btn:hover {
