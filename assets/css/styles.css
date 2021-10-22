@@ -279,7 +279,7 @@ section {
     display: block;
     width: 40px;
     height: 3px;
-    background: #fdc134;
+    background: var(--secundary);
     bottom: 0;
     left: calc(50% - 20px);
 }
@@ -556,3 +556,30 @@ section {
     color: var(--secundary);
   }
   
+
+  .back-to-top {
+    position: fixed;
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    right: 15px;
+    bottom: 15px;
+    background: var(--primary);
+    color: #fff;
+    transition: display 0.5s ease-in-out;
+    z-index: 99999;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .back-to-top i {
+    font-size: 24px;
+    position: absolute;
+    top: 13px;
+    left: 16px;
+  }
+  
+  .back-to-top:hover {
+    color: #fff;
+    background: var(--secundary);
+  }
