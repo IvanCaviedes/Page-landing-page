@@ -30,7 +30,7 @@
 
 <body>
 
-    <header class="header">
+    <header id="header" class="header">
         <div class="container d-flex ">
 
             <!-- ======= Logo ======= -->
@@ -71,15 +71,13 @@
     </section>
     <!-- End Hero -->
 
-
-
     <main id="main">
 
         <section id="clients" class="clients section-bg">
             <div class="container">
                 <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-                    <div class="titulo-clientes col-12 text-center pt-5">
-                        <h1>Algunos de nuestros clientes!</h1>
+                    <div class="titulo-clientes col-12 text-center pt-5" data-aos="zoom-in-down">
+                        <h1>Algunos de nuestros clientes</h1>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="client-logo">
@@ -239,9 +237,92 @@
                 </div>
             </div>
         </section>
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-aos="fade-in">Portfolio</h2>
+                    <p data-aos="fade-in">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
+                        fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui
+                        impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>
 
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-app">App</li>
+                            <li data-filter=".filter-card">Card</li>
+                            <li data-filter=".filter-web">Web</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row portfolio-container" data-aos="fade-up">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery"
+                                    class="venobox" title="App 1">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                                <a href="#" title="More Details">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>App 1</h4>
+                                <p>App</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery"
+                                    class="venobox" title="App 1">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                                <a href="#" title="More Details">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>App 1</h4>
+                                <p>App</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery"
+                                    class="venobox" title="App 1">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                                <a href="#" title="More Details">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>App 1</h4>
+                                <p>App</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
     </main>
-    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>    
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
     <!-- = Js Bootstrap 4.4 = -->
     <script src="./assets/venobox/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -250,10 +331,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-        <script src="assets/venobox/jquery.easing.min.js"></script>
+    <script src="assets/venobox/jquery.easing.min.js"></script>
     <script src="./assets/venobox/aos.js"></script>
 
-    <!-- <script src="./assets/venobox/venobox.min.js"></script> -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <script src="./assets/venobox/venobox.min.js"></script>
 
     <!-- = Main = -->
     <script src="assets/js/main.js"></script>
