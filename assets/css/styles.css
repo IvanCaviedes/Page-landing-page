@@ -874,7 +874,7 @@ color: var(--secundary);
   }
   
   .pricing .get-started-btn {
-    background: #213b52;
+    background: var(--primary);
     display: inline-block;
     padding: 6px 30px;
     border-radius: 20px;
@@ -925,6 +925,21 @@ color: var(--secundary);
     }
   }
 
+  .pricing .read-more a {
+    color: #777777;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.3s;
+  }
+
+  .pricing .read-more i {
+      margin-right: 10px;
+  }
+
+  .pricing .read-more a:hover {
+    color: var(--secundary);
+  }
 
   .contact .info-box {
     color: #444444;
