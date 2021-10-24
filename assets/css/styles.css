@@ -1,10 +1,16 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
+/* 
 :root {
     --primary: #294c55;
     --secundary: #8ba55a;
+} */
+
+
+:root {
+  --primary: #081c1d;
+  --secundary: #7F983D;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -894,8 +900,13 @@ color: var(--secundary);
     z-index: 10;
     margin: -30px -5px 0 -5px;
     border: 1px solid var(--secundary);
+    
   }
-  
+  .pricing .featured1 {
+    z-index: 10;
+    margin: -30px -5px 0 -5px;
+    border: 1px solid var(--primary);
+  }
   .pricing .featured .get-started-btn {
     background: var(--primary);
   }
