@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  color: var(--primary);
+  color: white;
   border-radius: 50px;
   padding: 8px 35px 10px 35px;
   border: 2px solid var(--secundary);
@@ -651,6 +651,7 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: 0.3s;
+  height: 200px;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -665,7 +666,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: white;
+  color: black;
   font-size: 24px;
   line-height: 1;
   text-align: center;
@@ -692,12 +693,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #fff;
+  color: black;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #ffffff;
+  color: black;
   font-size: 14px;
   text-transform: uppercase;
 }
