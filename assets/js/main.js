@@ -62,14 +62,14 @@
   });
 
 
-  $(window).on('load', function() {
+  $(window).on('load', function () {
 
     var portfolioIsotope = $('.pricing-container').isotope({
       itemSelector: '.pricing-item',
       layoutMode: 'fitRows'
     });
 
-    $('#pricing-flters li').on('click', function() {
+    $('#pricing-flters li').on('click', function () {
       $("#pricing-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
@@ -79,7 +79,7 @@
     });
 
     // Initiate venobox (lightbox feature used in portofilo)
-    $(document).ready(function() {
+    $(document).ready(function () {
       $('.venobox').venobox();
     });
   });
@@ -87,14 +87,14 @@
 
 
 
-  $(window).on('load', function() {
+  $(window).on('load', function () {
 
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item',
       layoutMode: 'fitRows'
     });
 
-    $('#portfolio-flters li').on('click', function() {
+    $('#portfolio-flters li').on('click', function () {
       $("#portfolio-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
@@ -104,9 +104,31 @@
     });
 
     // Initiate venobox (lightbox feature used in portofilo)
-    $(document).ready(function() {
+    $(document).ready(function () {
       $('.venobox').venobox();
     });
+  });
+
+
+  /* Card Slider - Swiper */
+  var cardSlider = new Swiper('.card-slider', {
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+    slidesPerView: 2,
+    spaceBetween: 70,
+    breakpoints: {
+      // when window is <= 991px
+      991: {
+        slidesPerView: 1
+      }
+    }
   });
 
   // Initi AOS

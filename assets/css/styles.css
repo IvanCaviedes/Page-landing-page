@@ -1272,3 +1272,125 @@ section {
     }
   }
 }
+
+
+/************************/
+/*     Testimonials     */
+/************************/
+.slider-1 {
+	/* padding-top: 9.75rem; */
+	padding-bottom: 4.5rem;
+}
+
+.slider-1 .slider-container {
+	position: relative;
+}
+
+.slider-1 .swiper-container {
+	position: static;
+	width: 86%;
+}
+
+.slider-1 .swiper-button-prev:focus,
+.slider-1 .swiper-button-next:focus {
+	/* even if you can't see it chrome you can see it on mobile device */
+	outline: none;
+}
+
+.slider-1 .swiper-button-prev {
+	left: -12px;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23707375'%2F%3E%3C%2Fsvg%3E");
+	background-size: 18px 28px;
+}
+
+.slider-1 .swiper-button-next {
+	right: -12px;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23707375'%2F%3E%3C%2Fsvg%3E");
+	background-size: 18px 28px;
+}
+
+.slider-1 .card {
+	border: none;
+}
+
+.slider-1 .card-body {
+	padding: 0;
+}
+
+.slider-1 .quotes {
+	margin-bottom: 3rem;
+	width: 64px;
+}
+
+.slider-1 .testimonial-text {
+	margin-bottom: 1.875rem;
+	color: #838a9c;
+	font-style: italic;
+	font-size: 1.5rem;
+	line-height: 2.25rem;
+}
+
+.slider-1 .testimonial-image {
+	display: inline-block;
+	width: 70px;
+	margin-bottom: 0.875rem;
+	border-radius: 50%;
+}
+
+.slider-1 .testimonial-author {
+	margin-bottom: 0.125rem;
+	color: #222222;
+	font-weight: 700;
+	font-size: 1.125rem;
+}
+
+
+@media (min-width: 992px) {
+  /* Testimonials */
+	.slider-1 .swiper-container {
+		width: 92%;
+	}
+
+	.slider-1 .swiper-button-prev {
+		left: -16px;
+		width: 22px;
+		background-size: 22px 34px;
+	}
+	
+	.slider-1 .swiper-button-next {
+		right: -16px;
+		width: 22px;
+		background-size: 22px 34px;
+	}
+
+	.slider-1 .details {
+		display: flex;
+		align-items: flex-start;
+	}
+	
+	.slider-1 .text {
+		flex-direction: column;
+	}
+
+	.slider-1 .testimonial-author {
+		margin-top: 0.625rem;
+	}
+	
+	.slider-1 .testimonial-image {
+		margin-right: 1.125rem;
+	}
+}
+
+@media (min-width: 1200px) {
+  
+	/* Testimonials */
+	.slider-1 .swiper-button-prev {
+		left: -24px;
+	}
+	
+	.slider-1 .swiper-button-next {
+		right: -24px;
+	}
+	/* end of testimonials */
+
+}
