@@ -243,6 +243,11 @@ section {
   overflow: hidden;
 }
 
+.subsection {
+  padding: 100px 0;
+  overflow: hidden;
+}
+
 .section-bg {
   background: linear-gradient(180deg, #f7faf2 0%, #fff 100%);
 }
@@ -639,7 +644,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(139, 165, 90, 0.5);
+  background: rgba(139, 165, 90, 0.747);
   position: absolute;
   left: 100%;
   right: 0;
