@@ -506,6 +506,7 @@ section {
 
 .services .card-img {
   width: calc(100% + 60px);
+  height: 200px;
   margin-left: -30px;
   overflow: hidden;
   z-index: 9;
