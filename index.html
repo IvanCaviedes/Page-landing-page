@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta name="description" content="Tu tienda de Desarrollo a la mano" />
     <meta name="keywords"
         content="desarrollo, Desarrollo, aplicaciones, web, pagina, desarrollar paginas web, crear paginas web, desarrollo de aplocaciones, agencia de software, software, development, colombia, devandesing,devandesign,dev&desing,Dev&Desing,Dev&Design" />
-    <meta name="author" content="devanddesing" />
-    <meta name="copyright" content="devanddesing" />
+    <meta name="author" content="devandesing" />
+    <meta name="copyright" content="devandesing" />
     <meta name="robots" content="noindex,nofollow">
-    <meta name="google-site-verification" content="pu5DGVuqvhYPsH0a9MzH8PoLJ6VhgBlaL6kp4w-h4qo"/>
+    <meta name="google-site-verification" content="pu5DGVuqvhYPsH0a9MzH8PoLJ6VhgBlaL6kp4w-h4qo" />
 
     <!-- ======= librarys ======= -->
 
@@ -22,7 +23,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/venobox/venobox.css">
+    <link rel="stylesheet" href="./assets/venobox.css">
     <!-- ======= Font ======= -->
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -466,29 +467,14 @@
 
         <section id="team" class="team section-bg">
             <div class="container">
-
                 <div class="section-title">
                     <h2 data-aos="fade-in">Nuestro Equipo</h2>
                     <p data-aos="fade-in">Ellos son personas que pueden realizar tus <b>SUEÑOS REALIDAD</b>, estan
                         altamente capacitados para desarrollar las funciones necesarias para cada proceso de tu
                         proyecto. <b>Conocenos a continuacion:</b></p>
                 </div>
-
-                <div class="row">
-
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="member" data-aos="fade-up">
-                            <div class="pic"><img src="assets/img/team/team-1.jpg" alt=""></div>
-                            <h4>Walter White</h4>
-                            <span>Chief Executive Officer</span>
-                            <div class="social">
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row" id="listeam">
+                  
                 </div>
             </div>
         </section>
@@ -655,133 +641,31 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
-
-                                <!-- Card Slider -->
                                 <div class="slider-container">
                                     <div class="swiper-container card-slider">
-                                        <div class="swiper-wrapper">
-
-                                            <!-- Slide -->
-                                            <div class="swiper-slide">
-                                                <div class="card text-center">
-                                                    <img class="quotes mx-auto" src="assets/img/comillas.png" alt="alternative" >
-                                                    <div class="card-body">
-                                                        <p class="testimonial-text">Fusce tincidunt dui nec diam varius
-                                                            venenatis. Nullam tristique rutrum odio, ut tincidunt erat
-                                                            dictum in. Etiam et aliquet mi, et vehicula elit fusce porta
-                                                            ullamcorper</p>
-                                                        <div class="details" >
-                                                            <img class="testimonial-image"
-                                                                src="assets/img/testimonial-1.jpg" alt="alternative">
-                                                            <div class="text">
-                                                                <div class="testimonial-author">Samantha Bloom</div>
-                                                                <div class="occupation">Team Leader - Syncnow</div>
-                                                            </div> <!-- end of text -->
-                                                        </div> <!-- end of testimonial-details -->
-                                                    </div>
-                                                </div>
-                                            </div> <!-- end of swiper-slide -->
-                                            <!-- end of slide -->
-
-                                        </div> <!-- end of swiper-wrapper -->
-
-                                        <!-- Add Arrows -->
+                                        <div class="swiper-wrapper" id="listatestimonial"></div>
                                         <div class="swiper-button-next"></div>
                                         <div class="swiper-button-prev"></div>
-                                        <!-- end of add arrows -->
-
-                                    </div> <!-- end of swiper-container -->
-                                </div> <!-- end of slider-container -->
-                                <!-- end of card slider -->
-
-                            </div> <!-- end of col -->
-                        </div> <!-- end of row -->
-                    </div> <!-- end of container -->
-                </div> <!-- end of slider-1 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <!-- ======= Frequently Asked Questions Section ======= -->
         <section id="faq" class="faq section-bg">
             <div class="container">
-
                 <div class="section-title">
-                    <h2 data-aos="fade-in">Frequently Asked Questions</h2>
+                    <h2 data-aos="fade-in">Preguntas Frecuentes</h2>
                     <p data-aos="fade-in">En esta seccion encontraras la preguntas mas frecuentes acerca de nuestros
                         servicios.</p>
                 </div>
-
-                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up">
-                    <div class="col-lg-5">
-                        <i class="bx bx-help-circle"></i>
-                        <h4>Non consectetur a erat nam at lectus urna duis?</h4>
-                    </div>
-                    <div class="col-lg-7">
-                        <p>
-                            Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
-                            curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                        </p>
-                    </div>
-                </div><!-- End F.A.Q Item-->
-
-                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-lg-5">
-                        <i class="bx bx-help-circle"></i>
-                        <h4>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h4>
-                    </div>
-                    <div class="col-lg-7">
-                        <p>
-                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit
-                            laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium.
-                            Est pellentesque elit ullamcorper dignissim.
-                        </p>
-                    </div>
-                </div><!-- End F.A.Q Item-->
-
-                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                    <div class="col-lg-5">
-                        <i class="bx bx-help-circle"></i>
-                        <h4>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</h4>
-                    </div>
-                    <div class="col-lg-7">
-                        <p>
-                            Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
-                            elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
-                            pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.
-                        </p>
-                    </div>
-                </div><!-- End F.A.Q Item-->
-
-                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                    <div class="col-lg-5">
-                        <i class="bx bx-help-circle"></i>
-                        <h4>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h4>
-                    </div>
-                    <div class="col-lg-7">
-                        <p>
-                            Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas dolorum accusantium
-                            sunt sit enim. Provident consequuntur quam aut reiciendis qui rerum dolorem sit odio.
-                            Repellat assumenda soluta sunt pariatur error doloribus fuga.
-                        </p>
-                    </div>
-                </div><!-- End F.A.Q Item-->
-
-                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-                    <div class="col-lg-5">
-                        <i class="bx bx-help-circle"></i>
-                        <h4>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h4>
-                    </div>
-                    <div class="col-lg-7">
-                        <p>
-                            Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
-                            ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
-                            bibendum est. Purus gravida quis blandit turpis cursus in
-                        </p>
-                    </div>
-                </div><!-- End F.A.Q Item-->
-
+                <div id="listapreguntas"></div>
             </div>
-        </section><!-- End Frequently Asked Questions Section -->
+        </section>
+
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact section-bg">
@@ -906,9 +790,58 @@
     </footer><!-- End Footer -->
 
 
+    <!-- Templates -->
+    <template id="preguntas">
+        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up">
+            <div class="col-lg-5">
+                <i class="bx bx-help-circle"></i>
+                <h4>${Pregunta}</h4>
+            </div>
+            <div class="col-lg-7">
+                <p>
+                    ${Solucion}
+                </p>
+            </div>
+        </div>
+    </template>
+
+    <template id="testimonios">
+        <div class="swiper-slide">
+            <div class="card">
+                <img class="quotes mx-auto" src="assets/img/comillas.png" alt="alternative">
+                <div class="card-body">
+                    <p class="testimonial-text">${texto}</p>
+                    <div class="details">
+                        <img class="testimonial-image" src="assets/img/testimonial-1.jpg" alt="alternative">
+                        <div class="text">
+                            <div class="testimonial-author">${author}</div>
+                            <div class="occupation">${ocupacion}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="teamember">
+        <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up">
+                <div class="pic"><img src="assets/img/team/team-1.jpg" alt=""></div>
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+                <div class="social">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </template>
 
     <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
     <!-- = Js Bootstrap 4.4 = -->
+    <script src="assets/js/datos.js"></script>
     <script src="./assets/venobox/jquery.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -923,7 +856,7 @@
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="assets/venobox/swiper.min.js"></script>
 
-    <script src="./assets/venobox/venobox.min.js"></script>
+    <script src="./assets/venobox.js"></script>
 
     <!-- = Main = -->
     <script src="assets/js/main.js"></script>
