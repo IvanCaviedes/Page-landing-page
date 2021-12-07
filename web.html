@@ -84,7 +84,7 @@
                 </div>
                 <div class="row about">
                     <div
-                        class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start order-lg-1">
+                        class="image1 col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start order-lg-1">
                     </div>
                     <div class="col-xl-7 pl-0 pr-lg-5 pr-lg-1 d-flex align-items-stretch order-lg-2">
                         <div class="content d-flex flex-column justify-content-center ">
@@ -132,7 +132,7 @@
                 </div>
                 <div class="row about">
                     <div
-                        class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start order-lg-2">
+                        class="image2 col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start order-lg-2">
                     </div>
                     <div class="col-xl-7 pl-0 pr-lg-5 pr-lg-1 d-flex align-items-stretch order-lg-1">
                         <div class="content d-flex flex-column justify-content-center ">
@@ -180,7 +180,7 @@
                 </div>
                 <div class="row about">
                     <div
-                        class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start order-lg-1">
+                        class="image3 col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start order-lg-1">
                     </div>
                     <div class="col-xl-7 pl-0 pr-lg-5 pr-lg-1 d-flex align-items-stretch order-lg-2">
                         <div class="content d-flex flex-column justify-content-center ">
@@ -228,7 +228,7 @@
                 </div>
                 <div class="row about">
                     <div
-                        class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start order-lg-2">
+                        class="image4 col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start order-lg-2">
                     </div>
                     <div class="col-xl-7 pl-0 pr-lg-5 pr-lg-1 d-flex align-items-stretch order-lg-1">
                         <div class="content d-flex flex-column justify-content-center ">
@@ -264,6 +264,101 @@
             </div>
 
         </section>
+
+                <!-- ======= Contact Section ======= -->
+                <section id="contact" class="contact section-bg">
+                    <div class="container">
+        
+                        <div class="section-title">
+                            <h2>Contacto</h2>
+                        </div>
+        
+                        <div class="row">
+        
+                            <div class="col-lg-6">
+        
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="info-box">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <h3>Direccion</h3>
+                                            <p>Bogota D.C.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="info-box">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <h3><a style="color: #8ba55a;"
+                                                    href="https://api.whatsapp.com/send?phone=+573112577264&text=I'm%20interested%20in%20your%20services"
+                                                    target="_black">whatsapp</a>
+                                            </h3>
+                                            <p>&nbsp;</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="info-box mt-4">
+                                            <i class="far fa-envelope"></i>
+                                            <h3>Correo</h3>
+                                            <a style="color: #8ba55a;"
+                                                href="mailto:devandesignsuport@gmail.com">devandesignsuport@gmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="info-box mt-4">
+                                            <i class="fas fa-phone-alt"></i>
+                                            <h3>Telefono</h3>
+                                            <p>+57 350 6838445</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+        
+                            <div class="col-lg-6">
+                                <form action="forms/contact.php" id="#newsletterForm" method="post" role="form"
+                                    class="php-email-form">
+                                    <div class="form-row">
+                                        <div class="col-md-6 form-group">
+                                            <input type="text" name="name" class="form-control" id="name"
+                                                placeholder="Tu Nombre" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" />
+                                            <div class="validate"></div>
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <input type="email" class="form-control" name="email" id="email"
+                                                placeholder="Tu Correo" data-rule="email"
+                                                data-msg="Please enter a valid email" />
+                                            <div class="validate"></div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
+                                            data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                        <div class="validate"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                            data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                                        <div class="validate"></div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="loading">Loading</div>
+                                        <div class="error-message"></div>
+                                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                                    </div>
+        
+                                    <div class="pb-3">
+                                        <div class="g-recaptcha" data-sitekey="6LeSUPocAAAAAP5KRIUIjx2Asck8PNPmvq2cBwGA"></div>
+                                    </div>
+        
+                                    <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+                                </form>
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                </section><!-- End Contact Section -->
     </main>
 
 
