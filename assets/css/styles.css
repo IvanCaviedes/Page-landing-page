@@ -1110,7 +1110,6 @@ section {
 }
 
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
   color: #fff;
   font-size: 14px;
   position: relative;
@@ -1462,5 +1461,19 @@ section {
 }
 
 .faq .faq-item p {
-  font-size: 15px;
+  font-size: 16px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--secundary);
+}
+::-webkit-scrollbar-thumb {
+  background: #416e79;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #17292e;
 }
