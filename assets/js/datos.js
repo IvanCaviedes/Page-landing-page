@@ -121,7 +121,7 @@ Team.forEach((item) => {
   // t2.querySelector(".member span").textContent = item.cargo
   t2.querySelector(
     '.member .pic img'
-  ).src = `${baseImagenes}/team/team-${item.id}.jpg`;
+  ).src = `${baseImagenes}team/team-${item.id}.jpg`;
   t2.querySelector('.member .social #facebook').href = item.redes.facebook;
   // t2.querySelector(".member .social #twitter").href = item.redes.twitter
   t2.querySelector('.member .social #instagram').href = item.redes.instagram;
