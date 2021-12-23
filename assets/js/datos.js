@@ -75,7 +75,7 @@ const fragment2 = document.createDocumentFragment();
 const Team = [
     {
         id: "1",
-        nombre: "Ivan",
+        nombre: "Iván Caviedes",
         cargo: "seo",
         redes: {
             facebook: "https://www.facebook.com/Ivancaviedes09/",
@@ -86,7 +86,7 @@ const Team = [
     },
     {
         id: "2",
-        nombre: "Daniela",
+        nombre: "Daniela Fresneda",
         cargo: "Diseñadora Grafica",
         redes: {
             facebook: "",
@@ -97,7 +97,7 @@ const Team = [
     },
     {
         id: "3",
-        nombre: "Carlos",
+        nombre: "Andres Castillo",
         cargo: "Ingeniero",
         redes: {
             facebook: "",
@@ -111,10 +111,10 @@ const Team = [
 
 Team.forEach(item => {
     t2.querySelector(".member h4").textContent = item.nombre
-    t2.querySelector(".member span").textContent = item.cargo
+    // t2.querySelector(".member span").textContent = item.cargo
     t2.querySelector(".member .pic img").src = `${baseImagenes}/team/team-${item.id}.jpg`
     t2.querySelector(".member .social #facebook").href = item.redes.facebook
-    t2.querySelector(".member .social #twitter").href = item.redes.twitter
+    // t2.querySelector(".member .social #twitter").href = item.redes.twitter
     t2.querySelector(".member .social #instagram").href = item.redes.instagram
     t2.querySelector(".member .social #linkedin").href = item.redes.linkedin
     const clone = t2.cloneNode(true)
@@ -169,32 +169,32 @@ let Servicios = [
     {
         imagen:"bannerAppsWeb.jpg",
         titulo:"Aplicaciones Web",
-        descripcion:"descripcion"
+        descripcion:"Somos una empresa enfocada al desarrollo a la medida, creamos sitios web y diseño web. ofrecemos la una solucion completa mejorar tu presencia en internet."
     },
     {
         imagen:"bannerAppsPersonalizada.jpg",
-        titulo:"Aplicaciones Personalizadas",
-        descripcion:"descripcion"
+        titulo:"Tiendas Online",
+        descripcion:"Aumenta las ventas de tu negocio con una tienda online. Son realizadas por profecionales enfocados a el aumento de produccion."
     },
     {
         imagen:"bannerAppsMovil.jpg",
         titulo:"Aplicaciones Movil",
-        descripcion:"descripcion"
+        descripcion:"Diseñamos aplicaciones para moviles (Android o ios) ajustandonos a tus necesidades y ofreciendo la una solucion completa mejorar tu presencia las tiendas mobiles."
     },
     {
         imagen:"ux.jpg",
         titulo:"Diseño UX",
-        descripcion:"descripcion"
+        descripcion:"Diseñamos aplicaciones utilizando un enfoque de diseño resposive. Somos desarrolladores que creamos interfaces y estrategias web."
     },
     {
         imagen:"ui.png",
         titulo:"Diseño UI",
-        descripcion:"descripcion"
+        descripcion:"Diseñamos mockups de tus aplicaciones utilizando un enfoque de diseño resposive. Creamos un interfaces de usuario que te ayudara a guiar a tus clientes por las diferentes partes de tu aplicacion."
     },
     {
         imagen:"photografia.jpg",
         titulo:"Fotografia",
-        descripcion:"descripcion"
+        descripcion:"Atrae clientes con fotografias profecionales, Nuestros fotografos tienen en cuenta la calidad la prespectiva y el angulo ideal para que tengas un exelente resultado en lo esperado."
     }
 ]
 Servicios.forEach(item => {
