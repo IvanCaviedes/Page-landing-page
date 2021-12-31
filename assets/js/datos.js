@@ -77,8 +77,8 @@ const Team = [
     redes: {
       facebook: 'https://www.facebook.com/Ivancaviedes09/',
       twitter: '',
-      instagram: '',
-      linkedin: '',
+      instagram: 'https://www.instagram.com/ivan_caviedes9/',
+      linkedin: 'https://co.linkedin.com/',
     },
   },
   {
@@ -86,10 +86,10 @@ const Team = [
     nombre: 'Daniela Fresneda',
     cargo: 'Diseñadora Grafica',
     redes: {
-      facebook: '',
+      facebook: 'https://www.facebook.com/danielita.fresneda',
       twitter: '',
-      instagram: '',
-      linkedin: '',
+      instagram: 'https://www.instagram.com/danuuuela/',
+      linkedin: 'https://co.linkedin.com/',
     },
   },
   {
@@ -97,21 +97,21 @@ const Team = [
     nombre: 'Andres Castillo',
     cargo: 'Ingeniero',
     redes: {
-      facebook: '',
+      facebook: 'https://www.facebook.com/xandresballenx',
       twitter: '',
-      instagram: '',
-      linkedin: '',
+      instagram: 'https://www.instagram.com/andresballen9/',
+      linkedin: 'https://co.linkedin.com/',
     },
   },
   {
-    id: '3',
+    id: '5',
     nombre: 'John Herrera',
     cargo: 'Developer',
     redes: {
-      facebook: '',
+      facebook: 'https://www.facebook.com/johnharold.herrera',
       twitter: '',
-      instagram: '',
-      linkedin: '',
+      instagram: 'https://www.instagram.com/',
+      linkedin: 'https://co.linkedin.com/',
     },
   },
 ];
