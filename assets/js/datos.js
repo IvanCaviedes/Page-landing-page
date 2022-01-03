@@ -8,18 +8,21 @@ const fragment = document.createDocumentFragment();
 const preguntasFrecuentes = [
   {
     id: '1',
-    pregunta: 'Pregunta 1',
-    solucion: 'Solucion 1',
+    pregunta: '¿Que es una página web ?',
+    solucion:
+      'Puede ser una tienda en línea, un sitio web o una aplicación a medida, Una herramienta digital orientada a cumplir objetivos, respaldada por un concept creativo que llame la atención Su propósito siempre será conectar con tu audiencia para ayudarte a vender tus productos, posicionar tu marca o promocionar tus servicios.',
   },
   {
     id: '2',
-    pregunta: 'Pregunta 2',
-    solucion: 'Solucion 2',
+    pregunta: 'Cual es el propósito de página web',
+    solucion:
+      'Queremos que te recuerden! Desarrollamos páginas web y aplicaciones con personalidad No te arriesgues con la primera agencia que encuentres. Deja el desarrollo digital de tu empresa a devandesing, nosotros haremos que tu empresa permanezca en la mente de tus clientes.',
   },
   {
     id: '2',
-    pregunta: 'esta es una pregunta',
-    solucion: 'esta es una solucion Solucion',
+    pregunta: 'Como elegir mi página web',
+    solucion:
+      'Entendemos que cada empresa tiene necesidades y requerimientos que deben solventarse de manera única. En devandesing nos obsesionamos con cada detalle y trabajamos nuestros proyectos pensando específicamente en cada cliente, cada empresa y cada usuario. ',
   },
 ];
 
