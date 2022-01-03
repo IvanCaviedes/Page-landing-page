@@ -14,13 +14,13 @@ const preguntasFrecuentes = [
   },
   {
     id: '2',
-    pregunta: 'Cual es el propósito de página web',
+    pregunta: '¿Cual es el propósito de página web?',
     solucion:
       'Queremos que te recuerden! Desarrollamos páginas web y aplicaciones con personalidad No te arriesgues con la primera agencia que encuentres. Deja el desarrollo digital de tu empresa a devandesing, nosotros haremos que tu empresa permanezca en la mente de tus clientes.',
   },
   {
     id: '2',
-    pregunta: 'Como elegir mi página web',
+    pregunta: '¿Como elegir mi página web?',
     solucion:
       'Entendemos que cada empresa tiene necesidades y requerimientos que deben solventarse de manera única. En devandesing nos obsesionamos con cada detalle y trabajamos nuestros proyectos pensando específicamente en cada cliente, cada empresa y cada usuario. ',
   },
