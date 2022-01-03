@@ -19,10 +19,47 @@ const preguntasFrecuentes = [
       'Queremos que te recuerden! Desarrollamos páginas web y aplicaciones con personalidad No te arriesgues con la primera agencia que encuentres. Deja el desarrollo digital de tu empresa a devandesing, nosotros haremos que tu empresa permanezca en la mente de tus clientes.',
   },
   {
-    id: '2',
+    id: '3',
     pregunta: '¿Como elegir mi página web?',
     solucion:
       'Entendemos que cada empresa tiene necesidades y requerimientos que deben solventarse de manera única. En devandesing nos obsesionamos con cada detalle y trabajamos nuestros proyectos pensando específicamente en cada cliente, cada empresa y cada usuario. ',
+  },
+  {
+    id: '4',
+    pregunta: '¿Por qué debo tener una página web?',
+    solucion:
+      'En la actualidad, tener una página web nos asegura credibilidad ante los posibles clientes potenciales y nos ayuda a ser visibles en Google que es uno de los buscadores más importantes del mundo, con ello lo importante de tener un diseño de página web organizado y estructurado.',
+  },
+  {
+    id: '5',
+    pregunta:
+      '¿Qué material debo tener para la construcción de una página web?',
+    solucion:
+      'El cliente entregara el logo, textos y todo el material visual con el que cuente, nuestro equipo los adaptara en una propuesta visual y un esquema de navegación. Si el cliente desea un servicio adicional para la redacción de sus contenidos, nuestro equipo pondrá a su disposición el servicio de Copywriter.',
+  },
+  {
+    id: '6',
+    pregunta: '¿Cuánto tiempo dura la construcción de una página web?',
+    solucion:
+      'La creación de una página web se determina según su complejidad, sus funcionalidades y sus características visuales, Dicho esto la creación de un sitio web informativo puede tardar entre una, dos o tres semanas. Ahora una tienda online o catalogo virtual puede demorar alrededor de tres o 4 semanas. Para consultar cuánto tiempo puede tardar tu proyecto puedes consultarnos..',
+  },
+  {
+    id: '7',
+    pregunta: '¿Puedo actualizar mi sitio web?',
+    solucion:
+      'Para actualizar tu página web nuestro equipo utiliza  sistemas CMS o plataformas E-Commerce, todo ello con el fin de que el usuario final pueda tener el control de sitio web y pueda modificar las imágenes, los textos, los banners, el menú, los encabezados, entre otros. Para cumplir con este objetivo se brinda una capacitación la cual está incluida en nuestros planes.',
+  },
+  {
+    id: '8',
+    pregunta: '¿El servicio de diseño de páginas web me ofrece una garantía?',
+    solucion:
+      'Todos los proyectos web se entregan con 6 meses de garantía sobre cualquier mal funcionamiento o desperfecto del sitio web construido y contratado por nuestro equipo. El cliente debe hacer un buen eso de las herramientas entregadas para cumplir con dicha garantía.',
+  },
+  {
+    id: '9',
+    pregunta: '¿Cómo puedo pagar mi página web?',
+    solucion:
+      'El pago obedece a un acuerdo según el plan o las características de su sitio web, lo normal es iniciar con un porcentaje para comenzar con el proyecto y el porcentaje restante al finalizar la construcción de la página.',
   },
 ];
 
